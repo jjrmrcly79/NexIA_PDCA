@@ -7,6 +7,7 @@ import DoPhase from './pages/DoPhase';
 import CheckPhase from './pages/CheckPhase';
 import ActPhase from './pages/ActPhase';
 import Dashboards from './pages/Dashboards';
+import Manual from './pages/Manual';
 
 export default function App() {
     return (
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="/check" element={<CheckPhase />} />
                     <Route path="/act" element={<ActPhase />} />
                     <Route path="/dashboards" element={<Dashboards />} />
+                    <Route path="/manual" element={<Manual />} />
                 </Routes>
             </main>
         </>
