@@ -9,6 +9,7 @@ import CheckPhase from './pages/CheckPhase';
 import ActPhase from './pages/ActPhase';
 import Dashboards from './pages/Dashboards';
 import Manual from './pages/Manual';
+import About from './pages/About';
 import Login from './pages/Login';
 
 function ProtectedRoute({ children }) {
@@ -53,6 +54,7 @@ export default function App() {
           <Route path="/act" element={<ProtectedRoute><ActPhase /></ProtectedRoute>} />
           <Route path="/dashboards" element={<ProtectedRoute><Dashboards /></ProtectedRoute>} />
           <Route path="/manual" element={<ProtectedRoute><Manual /></ProtectedRoute>} />
+          <Route path="/about" element={<ProtectedRoute><About /></ProtectedRoute>} />
           <Route path="/login" element={<Navigate to="/" replace />} />
         </Routes>
       </main>

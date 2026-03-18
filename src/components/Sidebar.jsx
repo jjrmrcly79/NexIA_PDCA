@@ -10,6 +10,7 @@ const NAV_ITEMS = [
   { path: '/act', label: 'Actuar', icon: '🚀' },
   { path: '/dashboards', label: 'Dashboards', icon: '📈' },
   { path: '/manual', label: 'Manual', icon: '📘' },
+  { path: '/about', label: 'Acerca de', icon: 'ℹ️' },
 ];
 
 export default function Sidebar() {
